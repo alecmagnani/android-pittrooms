@@ -2452,7 +2452,7 @@ containing a value of this type.
         public static final int beginning=0x7f0c0034;
         public static final int bottom=0x7f0c0026;
         public static final int building_spinner=0x7f0c006e;
-        public static final int button=0x7f0c0070;
+        public static final int button=0x7f0c0071;
         public static final int buttonPanel=0x7f0c0045;
         public static final int cancel_action=0x7f0c0076;
         public static final int center=0x7f0c0027;
@@ -2471,7 +2471,6 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0c005c;
         public static final int default_activity_button=0x7f0c0041;
         public static final int disableHome=0x7f0c0015;
-        public static final int editTime=0x7f0c0071;
         public static final int edit_query=0x7f0c0060;
         public static final int end=0x7f0c002c;
         public static final int end_padder=0x7f0c0088;
@@ -2548,6 +2547,7 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0c004c;
         public static final int textSpacerNoTitle=0x7f0c004b;
         public static final int time=0x7f0c007d;
+        public static final int time_picker=0x7f0c0070;
         public static final int title=0x7f0c0044;
         public static final int titleDividerNoCustom=0x7f0c0053;
         public static final int title_template=0x7f0c0051;

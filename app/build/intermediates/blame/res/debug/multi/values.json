@@ -25,15 +25,7 @@
                     "endOffset": 1214
                 },
                 "from": {
-                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 29,
-                        "startColumn": 4,
-                        "startOffset": 993,
-                        "endLine": 37,
-                        "endColumn": 19,
-                        "endOffset": 1262
-                    }
+                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/strings.xml"
                 }
             },
             {
@@ -915,7 +907,14 @@
                     "endOffset": 7394
                 },
                 "from": {
-                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/colors.xml"
+                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 206,
+                        "endColumn": 45,
+                        "endOffset": 247
+                    }
                 }
             },
             {
@@ -927,7 +926,14 @@
                     "endOffset": 7441
                 },
                 "from": {
-                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/colors.xml"
+                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 46,
+                        "endOffset": 97
+                    }
                 }
             },
             {
@@ -939,7 +945,14 @@
                     "endOffset": 7492
                 },
                 "from": {
-                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/colors.xml"
+                    "file": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/values/colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 102,
+                        "endColumn": 50,
+                        "endOffset": 148
+                    }
                 }
             },
             {

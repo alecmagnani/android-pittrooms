@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
@@ -46,6 +47,7 @@ public class DatabaseAccess {
     public List<String> getRooms(String building, String day, String time) throws ParseException {
         building = parse_building(building);
         day = parse_day(day);
+        time = convert_to_24hr(time);
 
         List<String> list = new ArrayList<>();
         Cursor cursor = database.rawQuery("SELECT * FROM sections WHERE building = \"" + building + "\"", null);
@@ -54,8 +56,6 @@ public class DatabaseAccess {
 
             if(time_in_range(cursor.getString(2), time) && day_matches(cursor.getString(1), day))
                 list.add(cursor.getString(4));
-            else
-                list.add("NOT " + cursor.getString(4));
 
             cursor.moveToNext();
 
@@ -126,14 +126,16 @@ public class DatabaseAccess {
         SimpleDateFormat sdf = new SimpleDateFormat("hh:mm");
         Date start = sdf.parse(convert_to_24hr(times[0]));
         Date end = sdf.parse(convert_to_24hr(times[1]));
-        Date now = new Date();
-        if (input != null)
-            now = sdf.parse(input);
-
+        Date now = sdf.parse(input);
         return (start.getTime() < now.getTime()) && (now.getTime() < end.getTime());
     }
 
     private String convert_to_24hr(String time) {
+        if (time == null || time.equals("")) {
+            Calendar now = Calendar.getInstance();
+            return now.get(Calendar.HOUR_OF_DAY) + ":" + now.get(Calendar.MINUTE);
+        }
+
         String am_pm;
         if (time.toLowerCase().contains("pm"))
             am_pm = "PM";

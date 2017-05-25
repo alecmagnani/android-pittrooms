@@ -610,7 +610,7 @@ int id basic 0x7f0c000f
 int id beginning 0x7f0c0034
 int id bottom 0x7f0c0026
 int id building_spinner 0x7f0c006e
-int id button 0x7f0c0070
+int id button 0x7f0c0071
 int id buttonPanel 0x7f0c0045
 int id cancel_action 0x7f0c0076
 int id center 0x7f0c0027
@@ -629,7 +629,6 @@ int id day_spinner 0x7f0c006f
 int id decor_content_parent 0x7f0c005c
 int id default_activity_button 0x7f0c0041
 int id disableHome 0x7f0c0015
-int id editTime 0x7f0c0071
 int id edit_query 0x7f0c0060
 int id end 0x7f0c002c
 int id end_padder 0x7f0c0088
@@ -706,6 +705,7 @@ int id text2 0x7f0c0085
 int id textSpacerNoButtons 0x7f0c004c
 int id textSpacerNoTitle 0x7f0c004b
 int id time 0x7f0c007d
+int id time_picker 0x7f0c0070
 int id title 0x7f0c0044
 int id titleDividerNoCustom 0x7f0c0053
 int id title_template 0x7f0c0051

@@ -1,12 +1,18 @@
 package com.example.alec.pittrooms;
 
+import android.annotation.TargetApi;
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TimePicker;
+
+import java.sql.Time;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_BUILDING = "com.example.pittrooms.BUILDING";
@@ -31,19 +37,18 @@ public class MainActivity extends AppCompatActivity {
         daySpinner.setAdapter(day_adapter);
     }
 
+    @TargetApi(Build.VERSION_CODES.M)
+    @RequiresApi(api = Build.VERSION_CODES.M)
     public void searchRooms(View view) {
         Intent intent = new Intent(this, DisplayResultsActivity.class);
 
-//        EditText editBuilding = (EditText) findViewById(R.id.editBuilding);
-//        EditText editDay = (EditText) findViewById(R.id.editDay);
-//        EditText editTime = (EditText) findViewById(R.id.editTime);
+        Spinner buildingSpinner = (Spinner) findViewById(R.id.building_spinner);
+        Spinner daySpinner = (Spinner) findViewById(R.id.day_spinner);
+        TimePicker timePicker = (TimePicker) findViewById(R.id.time_picker);
 
-//        String building = editBuilding.getText().toString();
-        String building = "";
-        String day = "";
-        String time = "";
-//        String day = editDay.getText().toString();
-//        String time = editTime.getText().toString();
+        String building = buildingSpinner.getSelectedItem().toString();
+        String day = daySpinner.getSelectedItem().toString();
+        String time = timePicker.getHour() + ":" + timePicker.getMinute();
 
         intent.putExtra(EXTRA_BUILDING, building);
         intent.putExtra(EXTRA_DAY, day);

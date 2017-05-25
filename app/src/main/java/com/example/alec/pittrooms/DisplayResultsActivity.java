@@ -11,6 +11,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import java.sql.SQLException;
@@ -26,6 +27,7 @@ public class DisplayResultsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_results);
+
         // Get the Intent that started this activity and extract the strings
         Intent intent = getIntent();
         String building = intent.getStringExtra(MainActivity.EXTRA_BUILDING);
@@ -36,12 +38,14 @@ public class DisplayResultsActivity extends AppCompatActivity {
         DatabaseAccess databaseAccess = DatabaseAccess.getInstance(this);
         databaseAccess.init_building_map();
         databaseAccess.open();
+
         List<String> rooms = null;
         try {
             rooms = databaseAccess.getRooms(building, day, time);
         } catch (ParseException e) {
             e.printStackTrace();
         }
+
         databaseAccess.close();
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, rooms);
