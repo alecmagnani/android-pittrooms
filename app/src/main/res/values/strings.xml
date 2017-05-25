@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Pitt Rooms</string>
+    <string name="building_array" />
+
+    <string-array name="building_array">
+        <item>"Allen Hall"</item>
+        <item>"Alumni Hall"</item>
+        <item>"Bellefield Hall"</item>
+        <item>"Benedum Hall"</item>
+        <item>"Chevron Science Center"</item>
+        <item>"Cathedral of Learning"</item>
+        <item>"Clapp Hall"</item>
+        <item>"Crawford Hall"</item>
+        <item>"Eberly Hall"</item>
+        <item>"Falk School"</item>
+        <item>"Frick Fine Arts Building"</item>
+        <item>"Langley Hall"</item>
+        <item>"Lawrence Hall"</item>
+        <item>"Mervis Hall"</item>
+        <item>"Music Building"</item>
+        <item>"Old Engineering Hall"</item>
+        <item>"Public Health"</item>
+        <item>"Sennott Square"</item>
+        <item>"Thackeray Hall"</item>
+        <item>"Thaw Hall"</item>
+        <item>"Trees Hall"</item>
+        <item>"Posvar Hall"</item>
+    </string-array>
+
+    <string-array name="day_array">
+        <item>"Monday"</item>
+        <item>"Tuedsay"</item>
+        <item>"Wednesday"</item>
+        <item>"Thursday"</item>
+        <item>"Friday"</item>
+        <item>"Saturday"</item>
+        <item>"Sunday"</item>
+    </string-array>
+</resources>

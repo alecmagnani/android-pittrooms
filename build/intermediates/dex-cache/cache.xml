@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/alec/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqliteassethelper-2.0.1_ab990528c7c282789cb54320349abb4b32302716/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="942ede90fda11b6cdad53560607d934f18765431">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbd54003d928504ba6684de6f6f8efe45fe0024e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alec/.android/build-cache/466085c1c0040b26fdabcc8077d7274ab19965da/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3a1bac2cc31df44dbf1f9bbf2c675319503c9271">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6620132eaf2a573ce47fbc5b0245fe312fc5822/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_40a890ff58efe1b96c41452c0972937ab2fb675c/classes.dex" />
+    </item>
+
+</items>

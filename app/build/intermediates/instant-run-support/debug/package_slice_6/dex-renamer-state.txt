@@ -1,0 +1,4 @@
+#Wed May 24 20:45:40 EDT 2017
+base.0=/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
+renamed.0=classes.dex
+file.0=/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex

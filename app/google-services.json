@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "301061912263",
+    "firebase_url": "https://pitt-rooms-13dfa.firebaseio.com",
+    "project_id": "pitt-rooms-13dfa",
+    "storage_bucket": "pitt-rooms-13dfa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301061912263:android:2c94d9e2518e4352",
+        "android_client_info": {
+          "package_name": "com.example.alec.pittrooms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301061912263-ikmamdjbjoogjc2denk7ufk9eqln35tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alec.pittrooms",
+            "certificate_hash": "ab4b6b3d2d82a2b32c706c8fb7cd12aca2bcf304"
+          }
+        },
+        {
+          "client_id": "301061912263-4bossh5cm20tk1k4n0rh06hmvdbpbl86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACTncZ5ujKASs7uCwUoaXaGDEZ2EK5bcE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301061912263-4bossh5cm20tk1k4n0rh06hmvdbpbl86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

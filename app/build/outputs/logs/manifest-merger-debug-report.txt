@@ -1,0 +1,102 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/alec/.android/build-cache/3d97f2b657ca50484718089f768904029c840b18/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/alec/.android/build-cache/028c24ff15f3d0f35962a83752c618cb4d7f85c6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/alec/.android/build-cache/50317f4dd2a3ae4eec1449e4a110f4709763d647/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/alec/.android/build-cache/ae133fb113ef610887bd7622267c67d547afe54e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/alec/.android/build-cache/fa9ae89d5f18caa09d55eb446f9b15ab2d38bac2/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/alec/.android/build-cache/04192beba65ca799e1bae6d9474d24e9e61ebd50/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/alec/.android/build-cache/c7edef826575953c4ffac49887496289ef827ad5/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/alec/.android/build-cache/466085c1c0040b26fdabcc8077d7274ab19965da/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/alec/.android/build-cache/1e4bfc06a1c554821b80eaef4d2ee9a4dd9ab192/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/alec/.android/build-cache/2011b71e4b06def653d818ea62cf6351fac460a0/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.example.alec.pittrooms.MainActivity
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.alec.pittrooms.DisplayResultsActivity
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:19:9-24:20
+	android:parentActivityName
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:20:19-61
+	android:name
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:19:19-57
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:21:13-23:49
+	android:value
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:23:17-46
+	android:name
+		ADDED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml:22:17-63
+uses-sdk
+INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/alec/.android/build-cache/3d97f2b657ca50484718089f768904029c840b18/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/alec/.android/build-cache/028c24ff15f3d0f35962a83752c618cb4d7f85c6/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/alec/.android/build-cache/50317f4dd2a3ae4eec1449e4a110f4709763d647/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/alec/.android/build-cache/ae133fb113ef610887bd7622267c67d547afe54e/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/alec/.android/build-cache/fa9ae89d5f18caa09d55eb446f9b15ab2d38bac2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/alec/.android/build-cache/04192beba65ca799e1bae6d9474d24e9e61ebd50/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/alec/.android/build-cache/c7edef826575953c4ffac49887496289ef827ad5/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/alec/.android/build-cache/466085c1c0040b26fdabcc8077d7274ab19965da/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/alec/.android/build-cache/1e4bfc06a1c554821b80eaef4d2ee9a4dd9ab192/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /home/alec/.android/build-cache/2011b71e4b06def653d818ea62cf6351fac460a0/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+		INJECTED from /home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/alec/.android/build-cache/3d97f2b657ca50484718089f768904029c840b18/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/alec/.android/build-cache/028c24ff15f3d0f35962a83752c618cb4d7f85c6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/alec/.android/build-cache/50317f4dd2a3ae4eec1449e4a110f4709763d647/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/alec/.android/build-cache/ae133fb113ef610887bd7622267c67d547afe54e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/alec/.android/build-cache/fa9ae89d5f18caa09d55eb446f9b15ab2d38bac2/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/alec/.android/build-cache/04192beba65ca799e1bae6d9474d24e9e61ebd50/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:gridlayout-v7:25.3.1] /home/alec/.android/build-cache/466085c1c0040b26fdabcc8077d7274ab19965da/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/alec/.android/build-cache/1e4bfc06a1c554821b80eaef4d2ee9a4dd9ab192/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/alec/.android/build-cache/2011b71e4b06def653d818ea62cf6351fac460a0/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/AndroidManifest.xml:26:9-47
