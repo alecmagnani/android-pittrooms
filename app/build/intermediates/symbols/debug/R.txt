@@ -804,6 +804,7 @@ int string abc_shareactionprovider_share_with_application 0x7f060011
 int string abc_toolbar_collapse_description 0x7f060012
 int string app_name 0x7f060021
 int string building_array 0x7f060022
+int string search 0x7f060023
 int string search_menu_title 0x7f060013
 int string status_bar_notification_info_overflow 0x7f060014
 int style AlertDialog_AppCompat 0x7f08009f

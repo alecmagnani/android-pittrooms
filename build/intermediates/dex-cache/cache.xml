@@ -2,31 +2,103 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/home/alec/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/ae133fb113ef610887bd7622267c67d547afe54e/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
-        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqliteassethelper-2.0.1_ab990528c7c282789cb54320349abb4b32302716/classes.dex" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_e9736a93809d689e4046cb8c862ea4a2a1cd5215.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/028c24ff15f3d0f35962a83752c618cb4d7f85c6/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="942ede90fda11b6cdad53560607d934f18765431">
-        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbd54003d928504ba6684de6f6f8efe45fe0024e/classes.dex" />
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_78c410139f88ac529a4e83c68418db3c179b04ab.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/home/alec/.android/build-cache/466085c1c0040b26fdabcc8077d7274ab19965da/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="3a1bac2cc31df44dbf1f9bbf2c675319503c9271">
-        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6620132eaf2a573ce47fbc5b0245fe312fc5822/classes.dex" />
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_a6620132eaf2a573ce47fbc5b0245fe312fc5822.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/1e4bfc06a1c554821b80eaef4d2ee9a4dd9ab192/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_9188386f96fc4428ca63d27b5990d051bee24471.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/c7edef826575953c4ffac49887496289ef827ad5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_8fd47a184eace074e9b0dbde09db3c00fc418f24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/2011b71e4b06def653d818ea62cf6351fac460a0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_4744f9006237d89fafb5261e3de919e23d1e85e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/fa9ae89d5f18caa09d55eb446f9b15ab2d38bac2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_a67e7d02594ae0ac7f7154f60bf7849a89b16c9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_e592508a32ae667929f34709e4665692d7f6e9ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_cede7da8c24d867372c93d1cc4d02e1857d57546.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_348f3131c7913b31ee14c391f4a2f4e6f57a0e66.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/50317f4dd2a3ae4eec1449e4a110f4709763d647/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_72bcb7ab1ca7f624dc7901517eaf2ff0b636816f.jar" />
     </item>
     <item
         is-multidex="true"
@@ -36,6 +108,42 @@
         revision="25.0.3"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_40a890ff58efe1b96c41452c0972937ab2fb675c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/04192beba65ca799e1bae6d9474d24e9e61ebd50/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_d8be3417984af5cad8f605629246111a6cc93198.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1_ab990528c7c282789cb54320349abb4b32302716.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/alec/.android/build-cache/3d97f2b657ca50484718089f768904029c840b18/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/pre-dexed/debug/classes_5df169d44e285cf2ccfe602bddbad5e4881b86b3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="942ede90fda11b6cdad53560607d934f18765431">
+        <dex dex="/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbd54003d928504ba6684de6f6f8efe45fe0024e/classes.dex" />
     </item>
 
 </items>

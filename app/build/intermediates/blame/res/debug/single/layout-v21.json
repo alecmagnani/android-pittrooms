@@ -8,6 +8,10 @@
         "source": "/home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
+        "merged": "/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/res/merged/debug/layout-v21/activity_main.xml",
+        "source": "/home/alec/src/AndroidStudioProjects/PittRooms/app/src/main/res/layout-v21/activity_main.xml"
+    },
+    {
         "merged": "/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/home/alec/.android/build-cache/13d7d6d77ccdd36bde2c456a5a3a693e5ec62275/output/res/layout-v21/notification_template_custom_big.xml"
     },

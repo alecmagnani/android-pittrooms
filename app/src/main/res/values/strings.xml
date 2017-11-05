@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Pitt Rooms</string>
     <string name="building_array" />
+    <string name="search">Search</string>
 
     <string-array name="building_array">
         <item>"Allen Hall"</item>

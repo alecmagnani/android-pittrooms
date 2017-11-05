@@ -150,7 +150,7 @@
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="colorAccent">#cdb87d</color>
-    <color name="colorPrimary">#313F6F</color>
+    <color name="colorPrimary">#313f6f</color>
     <color name="colorPrimaryDark">#1C2957</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
@@ -519,6 +519,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">Pitt Rooms</string>
     <string name="building_array"/>
+    <string name="search">Search</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>

@@ -57,8 +57,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_row="4"
+            android:background="@color/colorPrimary"
             android:onClick="searchRooms"
-            android:text="Search" />
+            android:text="@string/search"
+            android:textColor="@android:color/background_light" />
 
     </GridLayout>
 

@@ -1,4 +1,4 @@
-#Thu May 25 16:15:23 EDT 2017
+#Tue May 30 13:27:17 EDT 2017
 base.0=/home/alec/src/AndroidStudioProjects/PittRooms/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cbd54003d928504ba6684de6f6f8efe45fe0024e
 renamed.1=classes.dex
 renamed.0=classes2.dex
